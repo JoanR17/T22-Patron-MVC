@@ -50,7 +50,7 @@ public class VentanaBuscarCliente extends JFrame implements ActionListener {
 		botonModificar.setText("Modificar");
 
 		labelTitulo = new JLabel();
-		labelTitulo.setText("ADMINISTRAR PERSONAS");
+		labelTitulo.setText("ADMINISTRAR CLIENTES");
 		labelTitulo.setBounds(98, 21, 272, 30);
 		labelTitulo.setFont(new java.awt.Font("Verdana", 1, 18));
 
