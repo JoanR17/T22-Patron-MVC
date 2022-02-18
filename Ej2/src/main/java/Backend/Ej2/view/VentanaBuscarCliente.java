@@ -159,7 +159,7 @@ public class VentanaBuscarCliente extends JFrame implements ActionListener {
 				
 				if (ClienteServ.modificaCliente==true) 
 				{
-					habilita(true, false, false, false, false, false, true, false, true, true);	
+					habilita(true, false, false, false, false, false, true, false, false, false);
 				}
 			} 
 			catch (Exception e2) 
@@ -241,7 +241,7 @@ public class VentanaBuscarCliente extends JFrame implements ActionListener {
 		textDireccion.setText("");
 		textDni.setText("");
 		textFecha.setText("");
-		habilita(true, false, false, false, false, false, true, false, true, true);
+		habilita(true, false, false, false, false, false, true, false, false, false);
 	}
 
 

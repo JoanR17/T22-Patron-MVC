@@ -141,7 +141,7 @@ public class VentanaBuscarVideos extends JFrame implements ActionListener {
 				
 				if (VideosServ.modificaVideos==true) 
 				{
-					habilita(true, false, false, false, true, false, true, true);	
+					habilita(true, false, false, false, true, false, false, false);
 				}
 			} 
 			catch (Exception e2) 
@@ -229,7 +229,7 @@ public class VentanaBuscarVideos extends JFrame implements ActionListener {
 			textCli_id.setSelectedIndex(0);
 		}
 		textDirector.setText("");
-		habilita(true, false, false, false, true, false, true, true);
+		habilita(true, false, false, false, true, false, false, false);
 	}
 
 
