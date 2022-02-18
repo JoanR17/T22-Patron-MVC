@@ -29,7 +29,7 @@ public class ClienteServ {
 		}
 		else 
 		{
-			JOptionPane.showMessageDialog(null,"El documento de la cliente debe ser mas de 3 digitos", "Advertencia", JOptionPane.WARNING_MESSAGE);
+			JOptionPane.showMessageDialog(null,"El documento del cliente debe ser mas de 3 digitos", "Advertencia", JOptionPane.WARNING_MESSAGE);
 		}
 	}
 	
