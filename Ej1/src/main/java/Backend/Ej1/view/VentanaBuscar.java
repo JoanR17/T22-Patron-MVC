@@ -50,7 +50,7 @@ public class VentanaBuscar extends JFrame  implements ActionListener {
 		botonModificar.setText("Modificar");
 
 		labelTitulo = new JLabel();
-		labelTitulo.setText("ADMINISTRAR PERSONAS");
+		labelTitulo.setText("ADMINISTRAR CLIENTES");
 		labelTitulo.setBounds(98, 21, 272, 30);
 		labelTitulo.setFont(new java.awt.Font("Verdana", 1, 18));
 
@@ -160,7 +160,7 @@ public class VentanaBuscar extends JFrame  implements ActionListener {
 				
 				if (ClienteServ.modificaCliente==true) 
 				{
-					habilita(true, false, false, false, false, false, true, false, true, true);	
+					habilita(true, false, false, false, false, false, true, false, false, false);	
 				}
 			} 
 			catch (Exception e2) 
@@ -242,7 +242,7 @@ public class VentanaBuscar extends JFrame  implements ActionListener {
 		textDireccion.setText("");
 		textDni.setText("");
 		textFecha.setText("");
-		habilita(true, false, false, false, false, false, true, false, true, true);
+		habilita(true, false, false, false, false, false, true, false, false, false);
 	}
 
 
