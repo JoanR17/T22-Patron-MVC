@@ -273,4 +273,3 @@ public class VentanaBuscar extends JFrame  implements ActionListener {
 		botonEliminar.setEnabled(bEliminar);
 	}
 }
-
